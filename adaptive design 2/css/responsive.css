@@ -1,0 +1,447 @@
+@media screen and (max-width: 1240px) {
+	.wrapper {
+		width: 100%;
+	}
+}
+@media screen and (max-width: 1024px) {
+	.header__gradient1 {		
+		background: linear-gradient(to top, rgba(252, 227, 138, 0.9) 0%, rgba(243, 129, 129, 0.9) 100%);
+	}
+	nav a {
+		margin-right: 35px;
+	}
+	.header__menu a:nth-child(6) {
+		margin-right: 22px;
+	}
+	h1 {
+		font-size: 110px;
+	}
+	h2 {
+		font-size: 55px;
+	}
+	.header__slide .owl-dots .owl-dot span {
+		width: 155px!important;
+		margin-right: 25px!important;
+	}
+	header .slider__name p {
+		font-size: 22px;
+		margin-right: 10px;
+	}
+	.slider__name span {
+		font-size: 16px;
+	}
+	.services__item h5 {
+		font-size: 13px;
+	}
+	.services__item p {
+		font-size: 14px;
+	}
+	.services__item {
+		width: 240px;
+	}
+	.services__container-down {
+    	margin-bottom: 100px;
+    }
+    .display img:first-child {
+		height: 427px;
+		width: 350px;
+	}
+	.display img:last-child {
+		position: absolute;
+		height: 347px;
+		width: 200px;
+		bottom: -62px;
+    	right: -114px;
+	}
+	.whatWeDo__container img:first-child {
+		height: 270px;
+	}
+	.accordion>.card .card-header {
+	    height: 38px;
+	}
+	.card-body {
+	    height: 79px;
+	}
+	.whatWeDo p {
+		width: auto;
+	} 
+	.our_team__text {
+		width: 90%;
+	}
+	.our_team__card-photo, .our_team__blue {
+		width: 225px;
+		height: 278px;
+	}
+	.our_team__social {
+		width: 162px;
+		height: 33px;
+		margin-left: -81px;
+	}
+	.our_team__network img {
+		height: 15px;
+	}
+	.our_team__network:first-child a:first-child img {
+		height: 29px;
+	}
+	.our_team__network:last-child a:last-child img {
+		height: 26px;
+		width: 29px;
+	}
+	.footer__insta {
+	    width: 245px;
+	    justify-content: flex-start;
+	}
+	.footer__insta__container img {
+		width: 80px;
+		height: 80px;
+	}
+	.footer__blogs__text a {
+    	font-size: 11px;
+	}
+	.footer__blogs__text p {
+	    font-size: 12px;
+	}
+	.footer__blogs__container__item img {
+		width: 100px;
+		height: 66px;
+	}
+	.footer__form input:last-child {
+	    width: 35%;
+	    font-size: 13px;
+	}
+	.footer__follow__social {
+	    flex-direction: column;
+	    margin-bottom: 25px;
+	}
+	.footer__follow__social p {
+		margin-right: 0;
+		margin-bottom: 15px;
+	}
+	.footer__titles p:nth-child(3) {
+	    width: 245px;
+	}
+	.footer__follow-text {
+	    margin-bottom: 35px;
+	    font-size: 14px;
+	}
+	.footer__insta a {
+	    text-align: center;
+	}
+}
+@media screen and (max-width: 768px) {
+	nav {
+		flex-direction: column;
+		margin-top: 0;
+	}
+	.header__menu {
+		display: none;
+	}
+	.header__menu.header__responsive {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+	}
+	.header__menu.header__responsive a:first-child {
+		margin-top: 10px;
+	}
+	.header__icon {
+		display: flex;
+		color: white;
+		font-size: 30px;
+		border-top: 3px solid transparent; 
+		border-bottom: 3px solid transparent;
+		margin-top: 15px; 
+	}
+	.header__icon:hover {
+		border-bottom: 3px solid transparent; 
+	}
+	.opacity {
+	    opacity: 0.6;
+	}
+	.back {
+		background-color: green;
+	}
+	header a {
+		padding-bottom: 5px;
+	}
+	header h3{
+		padding-bottom: 10px;
+		margin-top: 25px;
+	}
+	nav a, .header__menu a:nth-child(6) {
+		margin-right: 0px;
+		margin-bottom: 5px;
+	}
+	.header__menu a:nth-child(7) {
+		margin-bottom: 0px;
+	}
+	h2 {
+		margin: 0 auto;
+		font-size: 40px;
+		margin-top: 30px;
+		width: 220px;
+		padding-bottom: 50px;
+	}
+	h1 {
+		font-size: 45px;
+		margin-bottom: 45px;
+	}
+	header input {
+    	margin-top: -10px;
+    	line-height: 150%;
+	}
+	.header__search-box {
+		margin: 0 auto;
+		padding-bottom: 20px;
+	}
+	.header__learnMore {
+		margin-bottom: 0;
+	}
+	.header__sliders {
+		padding: 20px 30px 190px 30px;
+	}
+	.header__sliders h2 {
+		margin-top: 110px;
+	}
+	.header__slide .owl-dots {
+		flex-direction: column;
+		left: 25px;
+		bottom: 12px;
+	}
+	.header__slide .owl-dots .owl-dot span {
+		width: 125px!important;
+		margin-right: 0px!important;
+		margin-bottom: 20px!important;
+	}
+	.slider__name {
+		flex-direction: column;
+		left: 170px;
+	}
+	header .slider__name p {
+		margin-bottom: 2px; 
+	}
+	header .slider__name p:last-child {
+		margin-bottom: 0;
+	}
+	.services__container-up, .services__container-down {
+    	flex-direction: column;
+    }
+    .services__container-dash {
+    	display: none;
+    }
+    .services__container {
+		align-items: center;
+	}
+	.services h3 {
+	    font-size: 26px;
+	}
+	.services h4 {
+	    margin-top: 30px;
+	    font-size: 22px;
+	}
+	.services .underscore {
+	    margin-bottom: 60px;
+	}
+	.services__item {
+	    margin-bottom: 30px;
+	}
+	.services__item h5 {
+	    margin-bottom: 10px;
+	}
+	.services__container-down {
+	    margin-bottom: 10px;
+	}
+	.display img:first-child {
+		height: 213px;
+		width: 175px;
+	}
+	.display img:last-child {
+		position: absolute;
+		height: 173px;
+		width: 100px;
+		bottom: -30px;
+    	right: -58px;
+	}
+	.design h4 {
+		margin-top: 50px;
+	}
+	.whatWeDo__container {
+		flex-direction: column;
+		align-items: center;
+	}
+	.whatWeDo__container img:first-child {	
+		width: 270px;
+		height: 180px;	
+		margin-right: 0px;
+		margin-bottom: 30px;
+	}
+	.whatWeDo__container-accordion {
+		width: 270px;
+	}
+	.accordion>.card .card-header {
+	    height: 38px;
+	}
+	.card-body {
+	    height: 75px;
+	}
+	.whatWeDo h4 {
+	    margin-top: 50px;
+	}
+	.whatWeDo__container {
+	    margin-bottom: 50px;
+	}
+	.whatWeDo p {
+	    margin: 45px auto 50px;
+	}
+	.opinion_slider {
+	    padding-top: 40px;
+	}
+	.opinion_slider__container {
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		margin-bottom: 40px;
+	}
+	.opinion_slider__container-left {
+		width: 130px;
+		height: 130px;
+		margin-bottom: 30px;
+	}
+	.opinion_slider__container-right {
+		width: 80%;
+		align-items: center;
+		text-align: center;
+	}
+	.opinion_slider .underscore {
+		margin-right: 20px;
+	}
+	.opinion_slider p {
+		margin-bottom: 20px;
+		font-size: 18px;
+	}
+	.opinion_slider h4 {
+		font-size: 20px;
+	}
+	.opinion_slider .opinion_slider__main .owl-nav button:last-child {
+		top: 54px;
+	}
+	.opinion_slider .opinion_slider__main .owl-nav button:first-child {
+		top: 54px;
+	}
+	.our_team__container {
+		flex-direction: column;
+		justify-content: space-around;
+		margin-bottom: 30px;
+	}
+	.our_team__card {
+	    margin-bottom: 20px;
+	}
+	.our_team__card p:nth-child(2) {
+	    margin-top: 15px;
+	}
+	.our_team__card p:last-child {
+	    margin-top: 10px;
+	}
+	.our_team__text {
+	    margin: 45px auto 50px;
+	}
+	.our_team h4 {
+	    margin-top: 50px;
+	}
+	.people_say__container {
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		margin-bottom: 50px;
+	}
+	.people_say h4 {
+	    margin-top: 50px;
+	}
+	.people_say__container__opinion:first-child, .people_say__container__opinion:nth-child(2), .people_say__container__opinion:nth-child(3) {
+	    margin-bottom: 40px;
+	}
+	.people_say .underscore {
+	    margin-bottom: 70px;
+	}
+	.people_say__container .underscore {
+		margin: 17px 0 17px;
+	}
+	.people_say__container__opinion {
+		width: 100%;
+		justify-content: center;
+	}
+	.people_say__container__opinion img {
+	    width: 90px;
+	    height: 90px;
+	}
+	.people_say__container__opinion__text {
+	    width: 300px;
+	}
+	.footer__titles {
+		display: none;
+	}
+	.footer__container {
+		flex-direction: column;
+	}
+	.footer__container {
+    	align-items: center;
+    }
+    .footer__follow {
+	    width: 90%;
+	}
+	.footer__blogs__container {
+		width: 270px;
+	}
+	.footer__follow {
+	    align-items: center;
+	    text-align: center;
+	}
+	.footer__follow__social {
+	    align-items: center;
+	}
+	.footer__follow__social__links {
+    	width: 260px;
+	}
+	.footer__follow__social__links a {
+		margin-right: 0;
+	}
+	.footer__follow form {
+		width: 280px;
+	}
+	.footer__form input:first-child {
+	    width: 60%;
+	}
+	.footer__form input:last-child {
+	    width: 40%;
+	}
+	.footer__blogs__container {
+   		align-items: center;
+   	}
+   	.footer__title-one, .footer__title-two, .footer__title-three {
+		display: flex;
+		margin-bottom: 30px;
+	}
+	.footer__title-one {
+		color: #cccccc;
+		font-family: 'Montserrat', sans-serif;
+		font-size: 46px;
+		font-weight: 700;
+		margin-top: 50px;
+	}
+	.footer__title-two, .footer__title-three {
+		color: #333333;
+		font-family: 'Montserrat', sans-serif;
+		font-size: 14px;
+		font-weight: 700;
+	}
+	.footer__follow, .footer__blogs__container {
+		margin-bottom: 50px;
+	}
+	.footer__dash {
+    	margin-top: 40px;
+	}
+	.copyright p {
+	    
+	    font-size: 13px;
+	}
+}
