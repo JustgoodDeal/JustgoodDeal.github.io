@@ -1,0 +1,411 @@
+@media screen and (max-width: 991px) {
+	header a, header .navbar-nav a:hover, header .dropdown:hover a {
+		border-top: none;
+	}
+	header .carousel-item h1 {
+		font-size: 35px;
+	}
+	header .carousel-caption .container p {
+		font-size: 22px;
+	}
+	header .carousel-caption .header__slogan p {
+		font-size: 12px;
+	}
+	header .navbar-text {
+		display: none;
+	}
+	header .carousel-caption {
+	left: 30%;
+	}
+	header .header__socials {
+		width: 70%;
+	    left: 22%;
+	}
+	header .navbar-nav a {
+		color: #FF8C00!important;
+		font-weight: bold;
+	}
+	.features .card-body h5 {
+		font-size: 18px;
+		font-weight: bold;
+	}
+	.features .card-body p {
+		font-size: 12px;
+	}
+	.works .carousel-indicators{
+	    margin-right: auto;
+		margin-left: auto;
+	}
+	.works__phtotoChosen h6 {
+		margin-top: 10px;
+	}
+	.meet_our_team-socials .block {
+	    width: 30px;
+	    height: 30px;
+	}
+	.meet_our_team__personChosen {
+	    justify-content: space-between;
+	}
+	.meet_our_team__personChosen-text p {
+		font-size: 12px;
+	}
+	.meet_our_team__personChosen-text {
+		padding-left: 2px;
+		padding-right: 2px;
+	}
+	.meet_our_team__personChosen-text p {
+		margin-bottom: 6px;
+	}
+	.meet_our_team .card-body {
+	    padding-right: 0;
+	    padding-left: 0;
+	}
+	.meet_our_team-slideHeight {
+		height: 530px;
+	}
+	.facts .card-deck {
+		padding-bottom: 100px;
+	}
+	.facts .card-body {
+	    padding-top: 30px;
+	}
+	.facts .card-title {
+		font-size: 50px;
+		margin-bottom: 0;
+	}
+	.facts .card-text {
+		font-size: 13px;
+	}
+	.discuss_form .contacts p {
+		font-size: 12px;
+	}
+	footer {
+	    font-size: 11px;
+	    padding-top: 80px;
+    	padding-bottom: 70px;
+	}
+	footer .container .row .col {
+		padding-right: 10px;
+    	padding-left: 10px;
+	}
+	footer .row .col:nth-child(2) .footer__basement {
+	    height: 60px;
+	}
+	footer .row .col:nth-child(2) .footer__header {
+	    margin-bottom: 24px;
+	}
+	footer .container .row .col:last-child {
+	    padding-left: 15px;
+	}
+	.footer__basement a p {
+	    margin-bottom: 11px;
+	}
+	.footer__withLove p {
+	    margin-bottom: 17px;
+	}
+	footer .footer__basement .row .col {
+		padding-left: 15px;
+		padding-right: 0;
+	}
+	footer .footer__basement .row .col:last-child {
+		padding-right: 0;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.features-slideHeight {
+		height: 350px;
+	}
+	.features .card-body h5 {
+		margin-top: 10px;
+		font-size: 17px;
+	}
+	.features .card-body {
+		padding-left: 0;
+		padding-right: 0;
+		text-align: center;
+	}
+	.works .carousel-indicators li {
+	    margin-right: 12px;
+	}
+	.works .carousel-indicators li:last-child {
+		margin-right: 0;
+	}
+	.works .section__headers .container p, 
+	.meet_our_team .section__headers .container p,
+	.discuss_form .section__headers .container p {
+    	font-size: 15px;
+    }
+	.works__phtotoChosen h6 {
+		margin-bottom: 3px;
+		margin-top: 3px;
+		font-size: 14px;
+	}
+	.works__phtotoChosen p {
+		font-size: 12px;
+	}
+	.works .section__headers .container, 
+	.meet_our_team .section__headers .container,
+	.discuss_form .section__headers .container {
+	    padding-left: 30px;
+	    padding-right: 30px;
+    }
+	.meet_our_team__personChosen-text p:last-child {
+		display: none;
+	}
+	.meet_our_team__personChosen {
+	    justify-content: space-around;
+	}
+	.meet_our_team .card-title {
+	    font-size: 14px;
+	}
+	.meet_our_team .card-text {
+	    color: #062033;
+	    font-size: 11px;
+	}
+	.meet_our_team-slideHeight {
+		height: 450px;
+	}
+	.facts .round {
+	    background: none;
+	}
+	.facts .card-title {
+		font-size: 35px;
+	}
+	.facts .card-text {
+		font-size: 11px;
+	}
+	.facts .round {
+	    height: 100px;
+	}
+	.facts .card-body {
+	    padding-top: 0;
+	}
+	.facts .card-deck {
+	    padding-bottom: 60px;
+	}
+	.facts .card {
+		margin-right: 3px;
+	    margin-left: 3px;
+	}
+	.discuss_form {
+		border-bottom: 3px solid #062033;
+	}
+	.discuss_form-beforeContacts {
+		font-size: 16px;
+	}
+	.discuss_form-beforeForm {
+		font-size: 18px;
+	}
+	.discuss_form .contacts p {
+		font-size: 10px;
+	}
+	.discuss_form .col-3 {
+		padding-right: 5px;
+    	padding-left: 5px;
+	}
+	.discuss_form input {
+	    font-size: 11px;
+		padding-bottom: 15px;
+	    padding-top: 15px;
+    }
+	.marginb-30 {
+	    margin-bottom: 20px!important;
+	}
+	.discuss_form_social img {
+		height: 15px;
+	}
+	.flex-box {
+	    margin-bottom: 15px;
+	}
+	.footer__basement a p {
+	    margin-bottom: 2px;
+	}
+	footer form button {
+	    right: 5px;
+	}
+	footer form input {
+	    padding-right: 25px!important;
+	    font-size: 11px!important;
+	}
+	.footer__withLove p {
+	    margin-bottom: 46px;
+	}
+	footer {
+    	padding-bottom: 60px;
+	}
+}
+
+@media screen and (max-width: 575px) {
+	header .header__socials {
+	    display: none;
+	}
+	header .nav-link {
+		padding-bottom: 0;
+	}
+	header .carousel-item h1 {
+	    font-size: 22px;
+	}
+	header .carousel-caption .container p {
+	    font-size: 12px;
+	}
+	.header__slogan {
+	    display: none;
+	}
+	header .carousel-caption .container {
+	    margin-bottom: 0;
+	    padding-right: 0;
+	    padding-left: 0;
+	    width: 80%;
+	}
+	header .carousel-caption {
+	    padding-bottom: 5px;
+	    padding-top: 0;
+	}
+	.features-slideHeight {
+		height: 280px;
+	}
+	.features .card-body p {
+		display: none;
+	}
+	.features .card-body h5 {
+		font-size: 14px;
+	}
+	.features .row {
+		margin-left: -5px;
+		margin-right: -5px;
+	}
+	.features .col-4 {
+		padding-left: 0;
+		padding-right: 0;
+	}
+	.works .carousel-indicators li {
+		margin-right: 0;
+	    padding-left: 5px;
+	    padding-right: 5px;
+	    padding-top: 3px;
+    	padding-bottom: 2px;
+	    font-size: 11px;
+	}
+	.works .section__headers .container, 
+	.meet_our_team .section__headers .container,
+	.discuss_form .section__headers .container {
+	    padding-left: 15px;
+	    padding-right: 15px;
+    }
+	.works__phtotoChosen h6 {
+		display: none;
+	}
+	.works__phtotoChosen p {
+		display: none;
+	}
+	.meet_our_team .card-deck {
+	    display: flex;
+	    align-items: center;
+	    justify-content: center;
+		flex-wrap: wrap;	    
+	    margin-right: -15px;
+	    margin-left: -15px;
+	}
+	.meet_our_team .card {
+		margin-right: 10px;
+	    margin-left: 10px;
+	    width: 120px;
+	}
+	.meet_our_team .card-body {
+	    padding-top: 10px;
+	}
+	.meet_our_team .card-title {
+	    margin-bottom: 4px;
+	}
+	.meet_our_team-slideHeight {
+		height: 530px;
+	}
+	.meet_our_team .carousel-indicators {
+	    margin-bottom: 50px;
+	}
+	.meet_our_team .carousel-caption {
+	    bottom: 90px;
+	}
+	.facts .section__headers {
+	    padding-top: 60px;
+	}
+	.facts .card-deck {
+	    display: flex;
+	    align-items: center;
+	    justify-content: space-around;
+		flex-wrap: wrap;	    
+	    margin-right: -15px;
+	    margin-left: -15px;
+	    padding-bottom: 35px;
+	}
+	.facts .card-title {
+	    font-size: 30px;
+	}
+	.facts .card-text {
+		font-size: 7px;
+	}
+	.facts .round {
+	    height: 90px;
+	}
+	.discuss_form .col-3 {
+		flex: 0 0 40%;
+		max-width: 40%;
+	}
+	.discuss_form .col-8 {
+		padding-left: 5px;
+		padding-right: 5px;
+		flex: 0 0 60%;
+		max-width: 60%;
+	}
+	.flex-box {
+		display: none;
+	}
+	.discuss_form .contacts p {
+	    font-size: 9px;
+	}
+	.discuss_form-beforeContacts {
+	    font-size: 15px;
+	}
+	.discuss_form .section__headers {
+	    padding-top: 70px;
+	}
+	.discuss_form .section__headers {
+	    margin-bottom: 50px;
+	}
+	.discuss_form .form-group {
+	    margin-bottom: 15px;
+	}
+	.discuss_form__map img {
+	    margin-top: 60px;
+	}
+	footer {
+		font-size: 10px;
+	}
+	footer .container .row .col {
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	footer .container .row .col:first-child {
+		min-width: 45%;
+	}
+	footer .container .row .col:nth-child(2) {
+		min-width: 45%;
+	}
+	footer .container .row .col:last-child {
+	    padding-left: 0;
+	}
+	footer .container .row .col:nth-child(3),
+	footer .container .row .col:nth-child(4) {
+		margin-top: 25px;
+	}
+	footer .footer__basement .row .col:nth-child(2) {
+		padding-left: 10px;
+	}
+	.footer__header {
+	    margin-bottom: 5px!important;
+	}
+	.footer__withLove p {
+	    margin-bottom: 30px;
+	}
+}
